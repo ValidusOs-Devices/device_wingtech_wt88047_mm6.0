@@ -9,3 +9,6 @@ BOARD_KERNEL_CMDLINE += \
     phy-msm-usb.floated_charger_enable=1
 
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
+
+# Vold
+TARGET_KERNEL_HAVE_NTFS := true
